@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vaccinated.com</title>
+    </head>
+    <link rel="stylesheet" href="vaccinated.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <script src="vaccinated.js"></script>
+    
+    <body>
+        <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <h1>Vaccinated?</h1>
+        <div class="login">
+            <form action="#">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="pass"><br>
+                <a href="User.html" id="submit">Login</a>
+              </form>
+            <p style="font-size:10px;margin-left: 50px;font-weight:bold;">Do not have an account <a href="signup.html" style="color:#1BBC9B;font-size:10px;text-decoration: none;">Sign Up</a></p>  
+        </div>
+        <img src="syringe.png" height="255" width="255" style="margin:-200px 0px 0px 0px">
+        <img src="doctor.png" height="250" width=" 250" style="margin:-340px 500px 0px 570px">  
+        <div style="position:absolute; height: 420px;">
+                <div class="vaccine c">
+                    <a href="https://health.economictimes.indiatimes.com/news/pharma/csir-iict-ties-up-with-cipla-to-develop-anti-covid-19-drug/74693465" style=" color:black; text-decoration: none;">
+                        <h3 id="vaccine_name">
+                        Cipla's Remdesivir
+                    </h3></a>
+                    <img src="bluevacc.png" style="height:130px; width: 70px;margin-left: 110px;">
+                    <p id="vac1"
+                    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size:14px;
+                    padding:3px;
+                    font-weight: bold;
+                    line-height:0.5cm;" ><button id="but"  onclick="vac1()">Details</button></p>                         
+                </div>
+                <div class="vaccine b">
+                    <a href="https://www.fda.gov/emergency-preparedness-and-response/coronavirus-disease-2019-covid-19/pfizer-biontech-covid-19-vaccine" style=" color:black; text-decoration: none;">
+                        <h3 id="vaccine_name">
+                        Pfizer-BioNTech
+                    </h3></a> 
+                    <img src="pinkvacc.png" style="height:130px; width: 70px;margin-left: 110px;"> 
+                       
+                    <p id="vac2"
+                    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size:14px;
+                    padding:3px;
+                    font-weight: bold;
+                    line-height:0.5cm;"><button id="but"  onclick="vac2()">Details</button></p>
+                    
+                </div>
+                <div class="vaccine a">
+                    <a href="https://www.bharatbiotech.com/covaxin.html" style="color:black; text-decoration: none;">
+                        <h3 id="vaccine_name">
+                        Covaccine
+                    </h3></a>
+                    <img src="yellowvacc.png"  style="height:130px; width: 70px;margin-left: 110px;">
+                    <p id="vac3"
+                    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size:14px;
+                    padding:3px;
+                    font-weight: bold;
+                    line-height:0.5cm;"><button id="but" onclick="vac3()">Details</button></p>
+                    </p>
+                </div>
+        </div>
+        <br>
+        <h3 style="
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 450px;
+        font-size: 30px;
+        font-weight: 500;
+        color: rgb(46, 46, 46);"></h3>
+        <div style="position:absolute;height: 200px;">
+            <div class="how date">
+                <p style="font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                margin:0px 0px 0px 0px;
+                text-decoration: none;
+                text-align: center;
+                margin-top:78px;">
+                <a href=""style=" text-decoration: none;color: rgb(17, 30, 66);">Date</a>
+                </p>
+            </div>
+            
+            <div class="how vac">
+                <p style="font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                margin:0px 0px 0px 0px;
+                text-decoration: none;
+                text-align: center;
+                margin-top:78px;">
+                <a href=""style=" text-decoration: none;color:rgb(30, 26, 58);">Vaccine</a>
+                </p>
+                <img src="arrow.png" style="height: 50px; width: 50px; margin:-50px 0px 0px 225px;" alt="">
+            </div>
+            <div class="how lab">
+                <p style="font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                margin:0px 0px 0px 0px;
+                text-decoration: none;
+                text-align: center;
+                margin-top:78px;">
+                <a href=""style=" text-decoration: none;color:rgb(17, 30, 66);">Lab</a>
+                </p>
+                <img src="arrow.png" style="height: 50px; width: 50px; margin:-50px 0px 0px 225px;" alt="">
+            </div>
+            
+            <div class="how signup">
+                <p style="font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                margin:0px 0px 0px 0px;
+                text-decoration: none;
+                text-align: center;
+                margin-top:78px;">
+                <a href="signup.html"style=" text-decoration: none;color:rgb(17, 30, 66);">Sign Up</a>
+                </p>
+                <img src="arrow.png" style="height: 50px; width: 50px; margin:-50px 0px 0px 225px;" alt="">
+            </div>       
+        </div>   
+    
+    </body>
+    
+</html>

@@ -1,0 +1,256 @@
+
+        html{
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        body{
+            max-width: 100%;
+            overflow-x: hidden;
+            background-image:url("bg.png");
+            height: 100%;
+            width:100%;
+            background-position:relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+        }
+        h1{
+            font-size: 100px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 10px 0px 0px 0px ;}         
+        ul {
+            list-style-type:none;
+            margin-left:840px;
+            margin-top: 20px;
+            margin-right: 0px;
+            padding:0px;
+            border-radius: 50px 50px 50px 50px;
+            overflow:visible;
+            background-color:#8bc7f1;
+            opacity: 50%;
+            color:rgb(19, 19, 59);}
+        li {    
+            float: left;
+            color:rgb(19, 19, 59);
+        
+        }
+        li a {
+            display: block;
+            color: rgb(19, 19, 59);
+            text-align: center;
+            padding: 20px 25px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 50px 50px 50px 50px;}
+
+        li a:hover {
+        background-color:#3289b19d;
+          color:white;
+        transition-duration: 0.5s;}
+        .login{
+            margin:-20px 0px 0px 940px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;}
+        #pass,#email{
+            background-color: #D0FFE0;
+            opacity:46%;
+            border:none;
+            border-radius: 5px;
+            height:30px;
+            width: 250px;}
+        #submit{
+            height:50px;
+            width:200px;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none;
+            background-color: white;
+            color:  #34495E;
+            border: 2px solid  #34495E ;
+            border-radius: 50px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 5px;
+            padding-bottom: 6px;
+            margin:20px 0px 0px 87px;}
+
+        #submit:hover{
+            transition: ease-in;
+            transition-duration: 0.5s;
+            background-color: #34495E ;
+            color: white;}
+
+        .vaccine{
+         
+            margin:0px 46px;
+            height: 410px;
+            width: 300px;
+            border:1px solid rgb(90, 90, 90);
+            border-radius: 20px;
+            background-color:rgb(224, 224, 224);
+            opacity: 40%;
+            border:0px solid grey;
+            float:left;
+            padding: 5px;
+            color:rgb(39, 39, 39);
+            }
+
+        .vaccine:hover{
+            
+            border-radius: 20px;
+            background-color: white;
+            opacity: 90%;
+            transition-duration: 0.4s; 
+            border: 2px solid rgb(53, 53, 53);
+               }
+
+        #vaccine_name{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: 5px; 
+        }
+        #but{
+            background-color: rgba(146, 146, 146, 0.438);
+            height: 30px;
+            width: 100px;
+            margin-top: 50px;
+            margin-left: 90px;
+            border:transparent;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #but:active{background-color:transparent;
+            outline: none;
+        border:transparent;
+        animation: none;}
+
+        .how{
+            height: 200px;
+            width: 200px;
+            margin: 0px 40px;
+            border: 1px solid black;
+            border-radius: 200px;
+            background-color: rgb(221, 221, 221);
+            opacity: 10%;
+            border:0px solid grey;
+            float:right;
+            padding: 10px;
+            color:rgb(39, 39, 39);
+            }
+
+        .how:hover{
+            background-color: rgb(255, 255, 255);
+            fill: rgb(0, 0, 0);
+            opacity: 90%;
+            transition-duration: 0.4s; 
+            color:rgb(17, 30, 66);
+            border: 2px solid rgb(71, 71, 71);
+        }
+
+        #lname,#fname,#nation,#email,#pass,#dob{
+            font-size: 20px;
+            border:none;
+            border-radius: 5px;
+            height: 30px;width: 250px;
+            margin-top: 4px;
+            margin-bottom:14px;
+            background-color:rgba(161, 158, 185, 0.15);
+            opacity:90%;
+            border: 1px solid grey;
+        }
+
+        #age{
+            font-size: 20px;
+            border:none;
+            border-radius: 5px;
+            height: 30px;width: 40px;
+            margin-top: 10px;
+            margin-bottom:5px ;
+            background-color:rgba(161, 158, 185, 0.15);
+            opacity:90%;
+            border: 1px solid grey;
+        }
+
+        #sex{
+            background-color:rgb(255, 72, 148);
+            padding:3px;
+            border:none;
+            margin-left:10px;
+            size:10px;
+        }
+
+        .user{
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color:rgb(255, 255, 255);
+            padding:20px;
+            width: 100px;
+            height: 900px;
+            opacity: 60%;
+            border:3px solid darkgray;
+        }
+
+        .details{
+            text-align: left;
+            margin-left:10px;
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color:rgb(255, 255, 255);
+            padding:20px;
+            width: 300px;
+            opacity: 60%;
+            border:3px solid darkgray;
+        }
+
+        .profile{
+            padding: 10px;
+            height: 400px;
+            float: left;
+        }
+
+        #about{
+            margin-left: 235px;
+            margin-top: -15px;
+            width: 700px;
+            height: fit-content;
+            padding:10px 30px 10px 30px;
+            border-radius: 20px;
+            background-color: rgba(12, 16, 78, 0.329);
+            color:white;
+            font-size: 20px;
+        }
+        
+        .icon{
+            margin-left: 40%;
+            font-size: 23px;
+            text-decoration: none;
+            font-weight: bold;
+            color:rgb(58, 58, 58);
+            text-align: center;
+        }
+
+        .icon.i:hover{
+            color:rgb(204, 29, 122)
+        }
+
+        .icon.f:hover{
+            color:rgb(29, 87, 204)
+        }
+
+        .icon.t:hover{
+            color:rgb(47, 211, 233)
+        }
+
+        .icon.l:hover{
+            color:rgb(0, 15, 102)
+        }
+
+        .icon.y:hover{
+            color:rgb(216, 22, 31)
+        }
